@@ -77,9 +77,7 @@ function Todo(props) {
       <div className="btn-group">
         <button type="button"
           className="btn"
-          onClick={() => {
-            setEditing(true);
-          }}
+          onClick={() => {setEditing(true)}}
           ref={editButtonRef}>
           Edit <span className="visually-hidden">{props.name}</span>
         </button>
