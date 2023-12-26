@@ -14,7 +14,6 @@ function Todo(props) {
   const editFieldRef = useRef(null);
   const editButtonRef = useRef(null);
   const wasEditing = usePrevious(isEditing);
-  console.log(wasEditing);
   function handleChange(e) {
     setNewName(e.target.value);
   }
@@ -61,6 +60,7 @@ function Todo(props) {
       </div>
     </form>
   );
+  
   const viewTemplate = (
     <div className="stack-small">
       <div className="c-cb">

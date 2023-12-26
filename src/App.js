@@ -59,7 +59,7 @@ function App(props) {
       return task;
     });
     setTasks(editedTaskList);
-  }  
+  }
    
   const taskList = tasks.filter(FILTER_MAP[filter]).map((task) => (
     <Todo

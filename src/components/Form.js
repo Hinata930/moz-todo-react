@@ -22,6 +22,7 @@ function Form(props) {
           What needs to be done?
         </label>
       </h2>
+
       <input
         type="text"
         id="new-todo-input"
